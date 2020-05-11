@@ -58,8 +58,8 @@ class RandEncrypt {
     }
   }
 }
-
 RandEncrypt.characterRange = 20000;
+
 
 //ENCRYPTION
 
@@ -102,6 +102,7 @@ function decrypt() {
   }
 }
 
+
 function newEncryption() {
   $("inputField").value = "";
   $("encryptionKeyPre").textContent = "";
@@ -112,3 +113,4 @@ function newEncryption() {
 function $(name) {
   return document.getElementsByName(name)[0];
 }
+
